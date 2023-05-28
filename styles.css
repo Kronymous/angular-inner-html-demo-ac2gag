@@ -1,1 +1,15 @@
-/* Add application styles & imports to this file! */
+#miBoton {
+  padding: 5px;
+  background: black;
+  color: white;
+}
+#miBoton:hover {
+  padding: 5px;
+  background: green;
+  color: white;
+}
+
+#resul {
+  color: red;
+  font-size: 30px;
+}
