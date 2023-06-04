@@ -47,15 +47,15 @@ export class AppComponent {
   //***************************************************/
   //arreglo
 
-  nombres: string[] = ['melon', 'sandia', 'uva', 'platano'];
+  nombres: string[] = ['melon', 'sandia', 'uva', 'platano']
 
   obtenerListaNombres(): string {
-    let listaHTML = '<ul>';
+    let listaHTML = '<ul>'
     for (let i = 0; i < this.nombres.length; i++) {
-      listaHTML += '<li>' + i + ' - ' + this.nombres[i] + '</li>';
+      listaHTML += '<li>' + i + ' - ' + this.nombres[i] + '</li>'
     }
-    listaHTML += '</ul>';
-    return listaHTML;
+    listaHTML += '</ul>'
+    return listaHTML
   }
   //***************************************************/
   //arreglo diferente
